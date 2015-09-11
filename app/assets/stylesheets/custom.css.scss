@@ -68,3 +68,14 @@ h2 {
 .gravatar {
   border-radius:6px;
 }
+.well {
+  background-color: #EDEDED;
+}
+input, textarea, select, .uneditable-input {
+  border:1px solid #d2d2d2;
+  border-radius:5px;
+  width:100%;
+}
+input {
+  height: auto !important;
+}
