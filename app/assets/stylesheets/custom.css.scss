@@ -5,22 +5,27 @@ $navbar-default-color: $light-orange;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 .btn-nav {
+  color:black;
+  background-color:#666;
+  padding:0 20px;
+  font-weight:bold;
+}
+.btn-nav:hover {
   color:#fff;
-  background-color:#5D3333;
-  border-color:#910505;
+  font-weight:bold;
 }
 #logo {
   margin:10px 10px 10px 0;
   float: left;
   font-size:2em;
-  color:#fff;
+  color:#666;
   text-transform:uppercase;
   letter-spacing:-1px;
   padding-top:9px;
   font-weight:bold;
 }
 #logo:hover {
-  color: white;
+  color: #12121C;
   text-decoration:none;
 }
 body {
