@@ -28,5 +28,4 @@ ActiveRecord::Schema.define(version: 20150909163126) do
     t.datetime "updated_at"
     t.integer  "chef_id"
   end
-
 end
