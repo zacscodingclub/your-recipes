@@ -4,6 +4,9 @@ $navbar-default-color: $light-orange;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+.btn-success {
+  margin-top:10px;
+}
 .btn-nav {
   color:black;
   background-color:#666;
@@ -31,8 +34,13 @@ body {
   padding-top:80px;
 }
 .nav_item{
-  margin:25px 0 0 25px;
+  margin:20px 0 0 25px;
   float:left;
+}
+.nav_ul_item {
+  padding-left:25px;
+  float:left;
+  margin-top: 20px;
 }
 .center {
   text-align:center;
