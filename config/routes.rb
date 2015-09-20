@@ -10,7 +10,9 @@ Rails.application.routes.draw do
     end
   end
   
-  resources :chefs, except: [:new]
+  resources :chefs, except: [:new, :destroy]
+  resources :styles, only: [:new, :create, :show]
+  resources :ingredients, only: [:new, :create, :show]
   
   get '/register', to: 'chefs#new'
   
@@ -18,7 +20,6 @@ Rails.application.routes.draw do
   post '/login', to: 'logins#create'
   get '/logout', to: 'logins#destroy'
   
-  resources :styles, only: [:new, :create, :show]
-  resources :ingredients, only: [:new, :create, :show]
+  
 
 end
