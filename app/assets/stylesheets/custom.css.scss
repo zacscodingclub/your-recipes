@@ -83,6 +83,9 @@ input, textarea, select, .uneditable-input {
   border-radius:5px;
   width:100%;
 }
+.input_checkbox input {
+  width:auto !important;
+}
 input {
   height: auto !important;
 }
