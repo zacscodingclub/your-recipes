@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   resources :styles, only: [:new, :create, :show]
   resources :ingredients, only: [:new, :create, :show]
   
-  get '/register', to: 'chefs#new'
+  get '/register.html', to: 'chefs#new'
   
   get '/login', to: 'logins#new'
   post '/login', to: 'logins#create'
