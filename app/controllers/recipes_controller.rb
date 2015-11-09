@@ -10,7 +10,7 @@ class RecipesController < ApplicationController
   end
   
   def show
-  
+    @comment = @recipe.comments.build
   end
   
   def new
